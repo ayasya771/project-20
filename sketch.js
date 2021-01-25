@@ -13,7 +13,6 @@ function setup() {
 
 function draw() {
   background(255,255,255);
-  car.collide(wall);
   console.log(deformation);
   if(wall.x-car.x<(car.width+wall.width)/2)
   {
